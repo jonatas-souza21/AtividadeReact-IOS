@@ -1,0 +1,15 @@
+.itens-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(410px, auto));
+    padding: 5rem 3% 5rem;
+    gap: 2rem;
+    background-color: rgb(209, 209, 209);
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+}

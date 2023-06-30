@@ -1,0 +1,38 @@
+.menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+    background-color: #151515;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.logo img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.item-menu {
+    list-style-type: none;
+}
+
+.item-menu li {
+    display: inline-block;
+}
+
+.item-menu li a {
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.1rem;
+}
+
+.item-menu li a:hover {
+    transition: 0.3s;
+    color: orange;
+}
